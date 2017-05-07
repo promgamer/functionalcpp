@@ -3,5 +3,5 @@ project(demo)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
-set(SOURCE_FILES main.cpp functions.h)
+set(SOURCE_FILES main.cpp functions.hpp)
 add_executable(demo ${SOURCE_FILES})
