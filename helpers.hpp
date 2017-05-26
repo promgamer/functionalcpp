@@ -17,7 +17,7 @@ using std::remove_copy_if;
 using std::accumulate;
 using std::literals::string_literals::operator""s;
 
-void printVector(const vector<int> vec)
+void printVector(const vector<int>& vec)
 {
     std::for_each(begin(vec), end(vec), [](auto x){cout << x << " ";});
     cout << endl;
